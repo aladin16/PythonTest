@@ -11,7 +11,7 @@ status = "Status:"
 javastatus = subprocess.check_output(["java", "-version"],stderr=subprocess.STDOUT)
 if (javastatus =="Command 'java' not found"):
     print("Java does not exist")
-    status=status+"\n Java does not exist"
+    status= status + "\n Java does not exist"
     installVal = input("Do you want to install Java: Y/N \n")
     if (installVal == "Y" or installVal == "y") :
         print("Installing Java...")
@@ -21,10 +21,10 @@ if (javastatus =="Command 'java' not found"):
     
 else :
     print(javastatus)
-    status = status + "\n" + javastatus
+    status += javastatus.decode("utf-8")
     
 updateVal = input("Do you want to update to another version?: Y/N \n")
-print(updateVal)
+
 if (updateVal == "Y" or updateVal == "y") :
     versionVal=input("Please enter the desired version")
     status = status + "\n updating Java to this version:" + versionVal
