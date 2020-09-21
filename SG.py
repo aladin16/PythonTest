@@ -6,6 +6,7 @@ import smtplib
 #python3 -m smtpd -c DebuggingServer -n localhost:1025  to open port:1025
 #EMAIL_ADRESS = os.environ.get('EMAIL_USER')
 #EMAIL_PWD = os.environ.get('EMAIL_PASS')
+EMAIL_ADRESS = "aladin.riabi@gmail.com"
 
 status = "Status:"
 javastatus = subprocess.check_output(["java", "-version"],stderr=subprocess.STDOUT)
