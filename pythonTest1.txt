@@ -1,0 +1,24 @@
+Python test 1:
+
+Objective:
+The candidate has to create a python script to do some monitoring check and some updating below:
+ - check java exist DONE
+
+ - check java version DONE
+	https://stackoverflow.com/questions/31807882/get-java-version-number-from-python
+
+ - download and install java (if java is not available)  DONE
+	
+
+ - update java to the version in argument  DONE
+
+ - add alias if not exist  ???
+
+ - give status by email   
+
+
+Requirement:
+- python 3.7
+- check for linux
+- code versioning with git
+- send code through github (please provide the link)
